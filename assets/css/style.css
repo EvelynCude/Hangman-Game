@@ -5,9 +5,12 @@ body{
 	background-attachment: fixed;
 }
 
+.container{
+	width: 65%;
+}
+
 #incorrectLetters, #correctLetters, #guessesRemaining, #wins{
 	font-size: 25px;
-	text-align: center;
 	font-weight: bold;
 	color: #333333;
 }
@@ -16,24 +19,23 @@ body{
 	font-size: 30px;
 	line-height: 50px;
 	margin-top: 10px;
-	text-align: center;
+	color: #125229;
 }
 
 #underscores{
+	font-family: 'Vast Shadow', cursive;
+	font-family: 'Pangolin', cursive;
 	font-size: 45px;
 	line-height: 90px;
-	color: #333333;
-	text-align: center;
-	border-bottom: 2px green solid;
+	color: #000000;
 }
 
 #underscores:first-letter{
 	text-transform: capitalize;
 }
 h1{
-	text-align: center;
 	font-weight: bolder;
-	font-size: 45px;
+	font-size: 50px;
 }
 h2{
 	font-size: 20px;
@@ -41,17 +43,34 @@ h2{
 }
 
 .topContainer{
+	font-family: 'Luckiest Guy', cursive;
 	color: #333333;
 	border: 3px green solid;
-	background-size: cover;
-	background-height: 200%;
-	background-repeat: no-repeat;
-	background: linear-gradient(to right, #00a0c4, #00a0c4, transparent), url(../images/rickandmortybanner.png);
+}
+.container .topContainer .topColor{
+	background-color: #000000;
 }
 
-.footer{
-	height: 80px;
-	margin-bottom: 40px;
+.solveArea{
+	background: linear-gradient(to right, #00a0c4, #00a0c4, transparent), url(../images/dfdfd.jpg);
+	color: #333333;
+	background-position: 130% 50%;
+	background-repeat: no-repeat;
+	border-bottom: 2px green solid;
+	margin-bottom: 30px;
+}
+
+
+#dimImage{
+	border: 1px green solid;
+	width: 70%;
+}
+
+
+.banner{
+	height: 25px;
+
+	color: white;
 }
 
 
@@ -91,6 +110,12 @@ h2{
 .page-header, .page-header small{
 	color: #333333;
 	border: 0;
+
+}
+audio{
+	width: 70px;
+	margin-top: 20px;
+	opacity: 0.9;
 }
 
 
@@ -98,10 +123,12 @@ h2{
 	background-color: #00a0c4;
 	color: #400080;
 	margin-top: 30px;
-	padding-bottom: 40px;
+	margin-bottom: 30px;
+	padding-bottom: 10px;
 	border: 3px green solid;
 	opacity: 0.9;
 }
-.rightColumn{
-	border-left: 1px green solid;
+
+.leftColumn{
+	border-right: 2px green solid;
 }

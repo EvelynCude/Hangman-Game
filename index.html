@@ -10,7 +10,11 @@
 
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" 	integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+	
+	<!--Google Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Bangers|Luckiest+Guy|Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Pangolin|Vast+Shadow" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Vast+Shadow" rel="stylesheet">
 
 	<!--CSS file-->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -30,26 +34,15 @@
 <embed src="/music/good_enough.mp3" width="180" height="90" hidden="true" />
 </audio>-->
  <!--<embed src="/music/good_enough.mp3" width="180" height="90" loop="false" autostart="false" hidden="true" />-->
-<audio id="mainSong" controls autoplay loop>
-  <source src="assets/sound/RickandMorty.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-<audio id="myAudio">
-  <source src="assets/sound/rick-belching-rick-and-morty.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-<audio id="winAudio">
-  <source src="" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
-	<div class="container topContainer">
-	<div class="page-header">
-	  <h1>Hangman<br><small>Rick and Morty edition</small></h1>
+
+	<div class="container topContainer topColor">
+	<div class="page-header" align="center">
+	  <h1>Hangman<br><small>Rick and Morty Edition</small></h1>
 	</div>
 	</div>
 	<div class="container">
-		<div class="row solveArea">
+		<div class="row solveArea" align="center">
 			<div id="alert"></div>
 			<br>
 			<div id="underscores"></div>
@@ -57,7 +50,7 @@
 		</div>
 
 		<div class="row">
-		  <div class="leftColumn col-lg-6">
+		  <div class="leftColumn col-lg-6" align="center">
 		  	<div>
     	      <img id="dimImage" src="" alt="...">
 		      <div class="caption">
@@ -66,8 +59,12 @@
 		        <p></p>
 		      </div>
 		    </div>
-		 	</div>
-		<div class="rightColumn col-lg-6">
+	  		<audio id="mainSong" controls autoplay loop>
+	  		<source src="assets/sound/RickandMorty.mp3" type="audio/mpeg">
+	  		Your browser does not support the audio element.
+	  		</audio>
+		  </div>
+		<div class="rightColumn col-lg-6" align="center">
 			<div>
 			<div><h2>Correct Letters</h2>
 			<div id="correctLetters"></div>
@@ -89,10 +86,19 @@
 		</div>
 		</div>
 	</div>
-	
+
+<audio id="myAudio">
+  <source src="assets/sound/rick-belching-rick-and-morty.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<audio id="winAudio">
+  <source src="" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>	
 
   <div class="footer">
-  	<div class="banner"></div>
+
+  	<div class="banner">&copy;2018 Evelyn Cude</div>
   </div>
 		<script type="text/javascript" src="assets/javascript/game.js"></script>
 

@@ -1,7 +1,7 @@
 alert("Welcome to the Rick and Morty Hangman game!");
 var startingWins=0;
-document.getElementById("dimImage").src = "assets/images/Pizza_Dimension.png";
-document.getElementById("mainSong").volume = 0.4;
+document.getElementById("dimImage").src = "assets/images/Thumbnail1.png";
+document.getElementById("mainSong").volume = 0.2;
 
 resetGame();
 function resetGame(){
@@ -13,7 +13,7 @@ var correctLetters = []; 	// Array for CORRECT letters chosen by user
 var incorrectLetters = [];	// Array for INCORRECT letters chosen by user
 var startingGuesses = 10; 	// Variable starting counter for number of guesses remaining
 var underscores = []; 		// Array of UNDERSCORES for generated random word
-var images=["assets/images/Pizza_Dimension.png","assets/images/PostApocalyptic_World.png","assets/images/Replacementpaper.png","assets/images/Dimension_C132.png"]
+var images=["assets/images/Thumbnail1.png","assets/images/Thumbnail2.png","assets/images/Thumbnail3.png","assets/images/Thumbnail4.png"]
 var audio = ["assets/sound/RM1.mp3","assets/sound/RM2.mp3","assets/sound/RM3.mp3","assets/sound/RM4.mp3","assets/sound/RM5.mp3","assets/sound/RM6.mp3","assets/sound/RM7.mp3"]
 
 // Randomly pick a word from wordCoices array
