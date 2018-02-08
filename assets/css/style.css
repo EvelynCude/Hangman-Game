@@ -1,0 +1,107 @@
+body{
+	background-image: url(../images/RickMortyBackground.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#incorrectLetters, #correctLetters, #guessesRemaining, #wins{
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	color: #333333;
+}
+
+#alert{
+	font-size: 30px;
+	line-height: 50px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#underscores{
+	font-size: 45px;
+	line-height: 90px;
+	color: #333333;
+	text-align: center;
+	border-bottom: 2px green solid;
+}
+
+#underscores:first-letter{
+	text-transform: capitalize;
+}
+h1{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 45px;
+}
+h2{
+	font-size: 20px;
+	text-align: center;
+}
+
+.topContainer{
+	color: #333333;
+	border: 3px green solid;
+	background-size: cover;
+	background-height: 200%;
+	background-repeat: no-repeat;
+	background: linear-gradient(to right, #00a0c4, #00a0c4, transparent), url(../images/rickandmortybanner.png);
+}
+
+.footer{
+	height: 80px;
+	margin-bottom: 40px;
+}
+
+
+/*{	-webkit-animation: 10s linear 0s normal none infinite animate;
+	-moz-animation: 10s linear 0s normal none infinite animate;
+	-ms-animation: 10s linear 0s normal none infinite animate;
+	-o-animation: 10s linear 0s normal none infinite animate;*/
+/*	animation-name: animate;
+	animation: 20s linear 0s normal none infinite animate;
+}
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 100% 0;}
+}
+ 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 100% 0;}
+}
+ 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 100% 0;}
+}
+ 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 100% 0;}
+}
+ 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 100% 0;}
+
+}
+*/
+.page-header, .page-header small{
+	color: #333333;
+	border: 0;
+}
+
+
+.container{
+	background-color: #00a0c4;
+	color: #400080;
+	margin-top: 30px;
+	padding-bottom: 40px;
+	border: 3px green solid;
+	opacity: 0.9;
+}
+.rightColumn{
+	border-left: 1px green solid;
+}
