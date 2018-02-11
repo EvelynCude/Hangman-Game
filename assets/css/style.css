@@ -16,12 +16,13 @@ body{
 }
 
 #alert{
-	font-size: 30px;
-	line-height: 50px;
+	font-size: 25px;
+	line-height: 35px;
 	margin-top: 10px;
 	color: #125229;
 }
 
+/*fonts from Google Fonts*/
 #underscores{
 	font-family: 'Vast Shadow', cursive;
 	font-family: 'Pangolin', cursive;
@@ -48,13 +49,13 @@ h2{
 	border: 3px green solid;
 }
 .container .topContainer .topColor{
-	background-color: #000000;
+	background-color: #000000;	
 }
 
 .solveArea{
-	background: linear-gradient(to right, #00a0c4, #00a0c4, transparent), url(../images/dfdfd.jpg);
+	background: linear-gradient(to right, #00a0c4, #00a0c4, transparent), url(../images/RMresizebanner.jpg);
 	color: #333333;
-	background-position: 130% 50%;
+	background-position: 100% 50%;
 	background-repeat: no-repeat;
 	border-bottom: 2px green solid;
 	margin-bottom: 30px;
@@ -62,7 +63,7 @@ h2{
 
 
 #dimImage{
-	border: 1px green solid;
+	border: 4px #0a4c55 solid;
 	width: 70%;
 }
 
@@ -74,46 +75,13 @@ h2{
 }
 
 
-/*{	-webkit-animation: 10s linear 0s normal none infinite animate;
-	-moz-animation: 10s linear 0s normal none infinite animate;
-	-ms-animation: 10s linear 0s normal none infinite animate;
-	-o-animation: 10s linear 0s normal none infinite animate;*/
-/*	animation-name: animate;
-	animation: 20s linear 0s normal none infinite animate;
-}
-@-webkit-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 100% 0;}
-}
- 
-@-moz-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 100% 0;}
-}
- 
-@-ms-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 100% 0;}
-}
- 
-@-o-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 100% 0;}
-}
- 
-@keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 100% 0;}
-
-}
-*/
 .page-header, .page-header small{
 	color: #333333;
 	border: 0;
 
 }
 audio{
-	width: 70px;
+	width: 28%;
 	margin-top: 20px;
 	opacity: 0.9;
 }
